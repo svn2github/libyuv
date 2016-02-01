@@ -361,6 +361,17 @@ ninja -C out\Debug
 drmemory out\Debug\libyuv_unittest.exe --gtest_catch_exceptions=0 --gtest_filter=* 
 </pre>
 
+=== Running UBSan =
+
+See chromium instructions for sanitizers
+https://www.chromium.org/developers/testing/undefinedbehaviorsanitizer
+
+Sanitizers available: tsan,msan,asan,ubsan,lsan 
+
+<pre>
+GYP_DEFINES='ubsan=1' gclient runhooks
+ninja -C out/Release 
+</pre>
 
 === Running Valgrind memcheck =
 
