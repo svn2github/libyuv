@@ -39,6 +39,9 @@ solutions = [
 
 For iOS add ;target_os=['ios']; to your OSX .gclient and run GYP_DEFINES="OS=ios" gclient sync.<br>
 
+Browse the git reprository: <br>
+https://chromium.googlesource.com/libyuv/libyuv/
+
 === Android =
 For Android add ;target_os=['android']; to your Linux .gclient<br>
 
