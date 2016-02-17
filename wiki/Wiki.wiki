@@ -1,0 +1,1 @@
+See https://chromium.googlesource.com/libyuv/libyuv/+/master/README.md for documentation.
